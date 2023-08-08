@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="container">
-    <button onclick="alert('Hola!');">Saludar</button>
+    <button onclick="alert('Hola!'); event.stopPropagation()">Saludar</button>
 </div>
 </body>
 <script src="eventos.js"></script>
